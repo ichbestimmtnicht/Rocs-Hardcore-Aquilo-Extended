@@ -1,20 +1,17 @@
 {
-  "name": "[internal-mod-name]",
+  "name": "Rocs-Hardcore-Aquilo-Extended",
   "version": "0.0.0",
-  "title": "[MOD DISPLAY NAME]",
-  "author": "[YOUR MODS.FACTORIO.COM USERNAME]",
-  "homepage": "[HOMEPAGE/REPO URL]",
-  "description": "[SHORT DESCRIPTION]",
+  "title": "Hard Aquilo",
+  "author": "thesixthroc,ichbestimmtnicht",
+  "contact": "Discord: https://discord.gg/VuVhYUBbWE",
+  "homepage": "https://github.com/ichbestimmtnicht/Rocs-Hardcore-Aquilo-Extended",
+  "description": "Tweaks to Aquilo. The starting island is smaller. Nuclear reactors no longer function on very cold surfaces. Crafting Fluoroketone now requires light oil. Vanilla+.",
   "factorio_version": "2.1",
   "dependencies": [
-    "base"
+    "base >= 2.0.19",
+    "space-age >= 2.0.19",
+    "PlanetsLib >= 1.0.7",
+    "? Better-Melting-Ice"
   ],
-  "expansion_required": false,
-  "quality_required": false,
-  "rail_bridges_required": false,
-  "space_travel_required": false,
-  "spoiling_required": false,
-  "freezing_required": false,
-  "segmented_units_required": false,
-  "expansion_shaders_required": false
+  "freezing_required": true
 }
